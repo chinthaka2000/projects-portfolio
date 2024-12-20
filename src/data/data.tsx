@@ -43,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Innovative Full-Stack Developer | Custom Web & App Solutions by Chinthaka',
+  description: "I'm a Full-Stack Developer offering custom web and app solutions. From responsive websites to mobile applications, I bring your digital ideas to life. Let's create something innovative!",
 };
 
 /**
