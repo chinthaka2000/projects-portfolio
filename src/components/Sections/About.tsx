@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { FC, memo, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, MoveIn } from "react-scroll-motion";
+import {  ScrollContainer } from "react-scroll-motion";
 import { useInView } from 'react-intersection-observer';
 
 import { aboutData, SectionId } from '../../data/data';
