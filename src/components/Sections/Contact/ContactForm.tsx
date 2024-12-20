@@ -1,5 +1,5 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
 import emailjs from 'emailjs-com';
+import {FC, memo, useCallback, useMemo, useState} from 'react';
 
 interface FormData {
   name: string;

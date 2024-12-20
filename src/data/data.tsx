@@ -11,7 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-
 import heroImage from '../images/header-background.webp';
 //import heroImage from '../images/2.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -104,7 +103,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I'm a Jaffna-based Computer Science undergraduate with a knack for solving problems and a strong focus on full-stack development. I enjoy working with technologies like React, Node.js, Firebase, and Solidity, and I'm currently exploring the world of blockchain and decentralized applications.
 
-I thrive on continuous learning and love tackling programming challenges. Whether it's building innovative projects or experimenting with new tools, I’m always eager to expand my skill set.
+I thrive on continuous learning and love tackling programming challenges. Whether it's building innovative projects or experimenting with new tools, I'm always eager to expand my skill set.
 
 Beyond coding, I enjoy discovering creative ways to combine technology with real-world applications and taking time to appreciate the serene beauty of northern Sri Lanka.`,
   aboutItems: [
@@ -304,7 +303,7 @@ export const experience: TimelineItem[] = [
   {
     date: '',
     location: '',
-    title: 'Technologies I\'ve Worked With',
+    title: "Technologies I've Worked With",
     content: (
       <p>
         <b>Programming Languages:</b> C, C++, Java, Solidity, Go, Python, JavaScript, HTML, CSS, SQL, MATLAB, R.<br></br>
@@ -327,17 +326,17 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Sarah Johnson, Freelance Project Collaborator',
-      text: 'Chinthaka\'s attention to detail and ability to deliver under tight deadlines are remarkable. He brought creativity and efficiency to our e-commerce project, ensuring a smooth user experience and effective API integration. He is a highly reliable and skilled developer.',
+      text: "Chinthaka's attention to detail and ability to deliver under tight deadlines are remarkable. He brought creativity and efficiency to our e-commerce project, ensuring a smooth user experience and effective API integration. He is a highly reliable and skilled developer.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Sophia Green, ML Research Assistant',
-      text: 'Chinthaka\'s commitment to excellence and his ability to stay ahead of industry trends make him an exceptional colleague. His work on our machine learning models was both innovative and impactful, demonstrating his deep understanding of AI technologies and his drive for perfection.',
+      text: "Chinthaka's commitment to excellence and his ability to stay ahead of industry trends make him an exceptional colleague. His work on our machine learning models was both innovative and impactful, demonstrating his deep understanding of AI technologies and his drive for perfection.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Emily Carter, IoT Research Collaborator',
-      text: 'Chinthaka\'s enthusiasm for learning and applying new technologies is contagious. During our IoT Bee Activity Monitor project, he not only implemented the simulation but also guided the team through complex technical challenges. His dedication and leadership were key to the project\’s success.',
+      text: "Chinthaka's enthusiasm for learning and applying new technologies is contagious. During our IoT Bee Activity Monitor project, he not only implemented the simulation but also guided the team through complex technical challenges. His dedication and leadership were key to the project's success.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -349,7 +348,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to reach out if you\'d like to connect or discuss any opportunities! I\'m always happy to chat and collaborate.',
+  description: "Feel free to reach out if you'd like to connect or discuss any opportunities! I'm always happy to chat and collaborate.",
   items: [
     {
       type: ContactType.Email,
