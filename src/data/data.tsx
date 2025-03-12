@@ -142,11 +142,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 6,
       },
       {
         name: 'GraphQL',
@@ -159,7 +159,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Solidity',
-        level: 8,
+        level: 5,
       },
       {
         name: 'Node.js',
@@ -289,7 +289,19 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2024 - Present',
+    date: 'JAN 2025 - Present',
+    location: 'University of Jaffna',
+    title: 'Paysync App (Loan Management System)',
+    content: (
+      <p>
+        Designed and built a loan management web application with React, Node.js, and MongoDB, incorporating Hyperledger Fabric for blockchain functionality.<br></br>
+Utilized Fabric’s private blockchain to ensure immutable transaction records and automate processes via smart contracts, supporting features like loan application and repayment tracking.<br></br>
+Improved security and efficiency of financial operations through secure data handling and interest calculation implementation.<br></br>
+      </p>
+    ),
+  },
+  {
+    date: 'May 2024 - DEC 2024',
     location: 'University of Jaffna',
     title: 'University Voting System (React, Firebase)',
     content: (
