@@ -255,8 +255,8 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
+    title: 'Project 11',
+    description: 'Coming Soon',
     url: 'https://github.com/chinthaka2000',
     image: porfolioImage11,
   },
